@@ -1,8 +1,8 @@
 var APP_DATA = {
   "scenes": [
     {
-      "id": "0-test_city",
-      "name": "test_city",
+      "id": "0-test_city_02",
+      "name": "test_city_02",
       "levels": [
         {
           "tileSize": 256,
@@ -24,9 +24,9 @@ var APP_DATA = {
       ],
       "faceSize": 1500,
       "initialViewParameters": {
-        "yaw": -1.5605432012749247,
-        "pitch": 0.18268162395853693,
-        "fov": 1.3775911574573123
+        "pitch": 0,
+        "yaw": 0,
+        "fov": 1.5707963267948966
       },
       "linkHotspots": [],
       "infoHotspots": []
@@ -34,7 +34,7 @@ var APP_DATA = {
   ],
   "name": "Project Title",
   "settings": {
-    "mouseViewMode": "drag",
+    "mouseViewMode": "qtvr",
     "autorotateEnabled": true,
     "fullscreenButton": true,
     "viewControlButtons": false
